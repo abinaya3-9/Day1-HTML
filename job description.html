@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><font color="blue">JOB APPLICATION FORM</font></legend>
+    <form>
+        
+        <p><b>Personal Information</b></p>
+        
+        <label>Full Name &nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"  pattern="[A-Za-z]+"  size="35"required>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <label>Gender&nbsp;:</label>&nbsp;&nbsp;&nbsp;
+           <input type="radio" value="Male"name="m">Male&nbsp;&nbsp;
+           <input type="radio" value="Female" name="m">Female&nbsp;&nbsp;
+           <br><br><br>
+        
+        <label>Date of Birth&nbsp;:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date"size="25" required>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         <label>Phone Number&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" size="20" required maxlength="10" pattern="[0-9]{10}">
+        <br><br><br>
+        <label>Email Address&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" placeholder="abc@gmail.com"  size="30" required >
+        <br><br>
+        <label>Address&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea  cols="70"></textarea>
+        
+        <p><b>Education</b></p>
+        
+        <label>School Name&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"  size="25" required>
+        <br><br><br>
+         <label>College Name&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" size="25" required>
+        <br><br><br>
+        <label>Degree/Certificate&nbsp;:</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" size="25" required>
+        <br><br><br>
+        
+        <label>Year completed&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select>
+            <option>2024</option>
+            <option>2025</option>
+            <option>2026</option>
+        </select>
+        <br><br><br>
+
+        <label>Skills&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" value="HTML" name="S">HTML&nbsp;&nbsp;
+        <input type="checkbox" value="CSS" name="S" >CSS&nbsp;&nbsp;
+        <input type="checkbox" value="Java Script" name="S" >Java Script&nbsp;&nbsp;
+        <input type="checkbox" value="Bootstrap" name="S">Bootstrap&nbsp;&nbsp;
+        <input type="checkbox" value="Java" name="S" >Java&nbsp;&nbsp;
+        <input type="checkbox" value="Spring Boot" name="S">Spring Boot&nbsp;&nbsp;
+        <input type="checkbox" value="Mysql" name="S">Mysql&nbsp;&nbsp;
+        <input type="checkbox" value="JDBC" name="S">JDBC&nbsp;&nbsp;
+        <br><br><br>
+
+
+        <label>Roll&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>FullStack Developer</option>
+            <option>Java Developer</option>
+            <option>Software Develope</option>
+        </select>
+        <br><br><br>
+
+
+        <label> Upload Resume&nbsp;:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="file" name="Resume" accept=".pdf">
+        <br><br>
+        <button type="submit">SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset">RESET</button>
+
+    </form>
+    </fieldset>
+</body>
+</html>
