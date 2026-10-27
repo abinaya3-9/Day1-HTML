@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job Registration Form</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color:  #3a688a;
+            margin: 0;
+            padding: 20px;
+
+        }
+        .job{
+            width:600px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 45px;
+            box-shadow: 2px solid rgb(76, 76, 149);
+            
+            
+        }
+        h1{
+            text-align: center;
+            color: black;
+            margin-bottom: 35px;
+           
+        }
+        label{
+            font-weight: bold;
+            margin: 10px;
+            font-size: 25px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        input ,select ,textarea{
+            width: 600px;
+            padding:20px;
+            margin-top: 20px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        textarea{
+            resize: vertical;
+        }
+        input:focus ,select:focus, textarea:focus{
+            outline: none;
+            border-color: red;
+
+        }
+        button{
+            background-color: black;
+            color:#eaf2f8;
+            border-radius: 5px;
+            border:none;
+            padding: 30px;
+            width:500px;
+            font-size: 20px;
+            cursor: pointer;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="job">
+        <h1>Job Registration Form</h1>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your Name" required>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your Email" required>
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your Phone Number" required>
+            <label>Date</label>
+            <input type="date"  required>
+            <label>Gender</label>
+            <select required>
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>other</option>
+                
+
+            </select>
+            <Label>Qualification</Label>
+            <select required>
+                <option value="">Select the Qualification</option>
+                <option>UG Degree</option>
+                <option>PG Degree</option>
+            </select>
+            <label>Job Role</label>
+            <Select required>
+                <option value="">Select the Role</option>
+                <option>Web Developer</option>
+                <option>Python Developer</option>
+                <option>Java Developer</option>
+            </Select>
+            <label>Experience</label>
+            <select required>
+                <option>Fresher</option>
+                <option>1-2 years</option>
+                <option>3-5 years</option>
+                <option>+5 years</option>
+            </select>
+            <label>Skills</label>
+            <textarea row="3" placeholder="Enter your Skills">
+
+            </textarea>
+            <label>Address</label>
+            <textarea  placeholder="Enter your Address">
+
+            </textarea>
+            <label>Upload Resume</label>
+            <input type="file" accept=".pdf">
+            <button type="submit">Register Now</button>
+         
+
+        </form>
+   
+    </div>
+</body>
+</html>
